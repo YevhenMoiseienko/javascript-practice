@@ -15,3 +15,7 @@ export const isEqual = (firstArray, secondArray) => {
 
   return !compared.includes(false);
 };
+
+const isEqual = (firstArray, secondArray) => {
+    return firstArray.join('') === secondArray.join('');
+}
